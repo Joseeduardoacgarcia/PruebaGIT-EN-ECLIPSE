@@ -10,6 +10,7 @@ public class GIT_NUEVO_FRAME extends JFrame {
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField textField;
+	private JTextField textField_1;
 
 	/**
 	 * Launch the application.
@@ -43,6 +44,11 @@ public class GIT_NUEVO_FRAME extends JFrame {
 		textField.setBounds(186, 45, 86, 20);
 		contentPane.add(textField);
 		textField.setColumns(10);
+		
+		textField_1 = new JTextField();
+		textField_1.setBounds(186, 88, 86, 20);
+		contentPane.add(textField_1);
+		textField_1.setColumns(10);
 	}
 
 }
