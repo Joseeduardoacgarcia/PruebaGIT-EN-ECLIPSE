@@ -39,7 +39,7 @@ public class GIT_NUEVO_FRAME extends JFrame {
 
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		
+		//CambioMaster
 		textField = new JTextField();
 		textField.setBounds(186, 45, 86, 20);
 		contentPane.add(textField);
