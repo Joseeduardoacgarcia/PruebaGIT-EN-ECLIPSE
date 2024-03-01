@@ -44,7 +44,7 @@ public class GIT_NUEVO_FRAME extends JFrame {
 		textField.setBounds(186, 45, 86, 20);
 		contentPane.add(textField);
 		textField.setColumns(10);
-		
+		//Cambio 1
 		textField_1 = new JTextField();
 		textField_1.setBounds(186, 88, 86, 20);
 		contentPane.add(textField_1);
