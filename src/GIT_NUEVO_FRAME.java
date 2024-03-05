@@ -4,6 +4,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JTextField;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class GIT_NUEVO_FRAME extends JFrame {
 
@@ -42,6 +44,10 @@ public class GIT_NUEVO_FRAME extends JFrame {
 		contentPane.setLayout(null);
 		//CambioMaster
 		textField = new JTextField();
+		textField.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		textField.setBounds(186, 45, 86, 20);
 		contentPane.add(textField);
 		textField.setColumns(10);
