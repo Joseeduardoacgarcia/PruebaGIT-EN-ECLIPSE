@@ -14,7 +14,7 @@ public class GIT_NUEVO_FRAME extends JFrame {
 	private JPanel contentPane;
 	private JTextField textField;
 	private JTextField textField_1;
-	private JTextField textField_2;
+	private JTextField txtHola;
 
 	/**
 	 * Launch the application.
@@ -58,10 +58,11 @@ public class GIT_NUEVO_FRAME extends JFrame {
 		contentPane.add(textField_1);
 		textField_1.setColumns(10);
 		
-		textField_2 = new JTextField();
-		textField_2.setBounds(186, 126, 86, 20);
-		contentPane.add(textField_2);
-		textField_2.setColumns(10);
+		txtHola = new JTextField();
+		txtHola.setText("Hola");
+		txtHola.setBounds(186, 126, 86, 20);
+		contentPane.add(txtHola);
+		txtHola.setColumns(10);
 		
 		JButton btnNewButton = new JButton("New button");
 		btnNewButton.setBounds(55, 185, 89, 23);
