@@ -11,7 +11,7 @@ public class GIT_NUEVO_FRAME extends JFrame {
 	private JPanel contentPane;
 	private JTextField textField;
 	private JTextField textField_1;
-	private JTextField textField_2;
+	private JTextField txtNo;
 
 	/**
 	 * Launch the application.
@@ -51,10 +51,11 @@ public class GIT_NUEVO_FRAME extends JFrame {
 		contentPane.add(textField_1);
 		textField_1.setColumns(10);
 		
-		textField_2 = new JTextField();
-		textField_2.setBounds(186, 126, 86, 20);
-		contentPane.add(textField_2);
-		textField_2.setColumns(10);
+		txtNo = new JTextField();
+		txtNo.setText("NO");
+		txtNo.setBounds(186, 126, 86, 20);
+		contentPane.add(txtNo);
+		txtNo.setColumns(10);
 	}
 
 }
