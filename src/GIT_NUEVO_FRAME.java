@@ -6,6 +6,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JTextField;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.JButton;
 
 public class GIT_NUEVO_FRAME extends JFrame {
 
@@ -61,6 +62,13 @@ public class GIT_NUEVO_FRAME extends JFrame {
 		textField_2.setBounds(186, 126, 86, 20);
 		contentPane.add(textField_2);
 		textField_2.setColumns(10);
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setBounds(55, 185, 89, 23);
+		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("New button");
+		btnNewButton_1.setBounds(183, 185, 89, 23);
+		contentPane.add(btnNewButton_1);
 	}
-
 }
